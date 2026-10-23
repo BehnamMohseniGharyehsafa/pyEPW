@@ -1,0 +1,49 @@
+pyEPW (formerly open-meteo-epw) is an independent community library.
+The installable distribution is named pyepw-openmeteo; the Python import is
+pyEPW. This project is independent of the unrelated pyepw project on PyPI.
+It is not an official
+Open-Meteo, ECMWF, Copernicus, GeoNames, or EnergyPlus product.
+
+The MIT licence covers this library's code and documentation. External data
+and service access retain their separate licences and terms.
+
+Weather: Open-Meteo (https://open-meteo.com/), ERA5/ERA5-Land from Copernicus
+Climate Change Service / ECMWF. Credits and modifications are in output metadata.
+Data licence: https://creativecommons.org/licenses/by/4.0/
+Hosted API terms: https://open-meteo.com/en/terms
+The public hosted API is restricted to non-commercial use and rate limited.
+
+Optional city catalog: GeoNames cities500, Creative Commons Attribution 4.0.
+https://download.geonames.org/export/dump/readme.txt
+It is downloaded separately on demand and is not bundled in the package.
+
+Optional station supplementation: NOAA NCEI Global Historical Climatology
+Network-hourly (GHCNh), with credit to its originating observing networks.
+https://www.ncei.noaa.gov/products/global-historical-climatology-network-hourly
+Station metadata, observations and source/QC codes are downloaded separately.
+Nearby observations are spatial proxies; no on-site measurement is implied.
+
+Additional gap-only station sources: NOAA NCEI Integrated Surface Database (ISD)
+and original published METAR reports archived by Iowa Environmental Mesonet.
+https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database
+https://mesonet.agron.iastate.edu/request/download.phtml
+IEM describes very little additional archive QC; these records are labelled
+separately from QC-passed NOAA records. Sources are fetched on demand.
+
+Surface albedo: NASA POWER, derived from CERES SYN1deg. Original source headers,
+parameter, requested location, UTC timestamps and valid-data coverage are kept.
+https://power.larc.nasa.gov/docs/methodology/energy-fluxes/derived-parameters/
+Undefined/provider-missing hourly ratios are not replaced with invented values.
+
+Daylight model: Perez, R., Ineichen, P., Seals, R., Michalsky, J. and Stewart, R.
+(1990), Modeling daylight availability and irradiance components from direct
+and global irradiance, Solar Energy 44(5), 271–289.
+https://doi.org/10.1016/0038-092X(90)90055-H
+Independently implemented using the paper's equations and coefficient Table 4;
+no third-party daylight implementation is bundled. Kasten–Young (1989) relative
+air mass is used as a documented adaptation. Outputs are empirical estimates.
+
+Solar geometry: independent implementation of NOAA's published Meeus-based
+geometric solar equations; Spencer (1971) Earth-distance harmonic correction,
+with a 1361 W/m² solar constant.
+https://gml.noaa.gov/grad/solcalc/calcdetails.html

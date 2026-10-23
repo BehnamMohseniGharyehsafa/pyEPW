@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite pyEPW and the original data products listed in DATA_SOURCES.md."
+title: "pyEPW: actual-year EPW files from open weather data"
+type: software
+authors:
+  - family-names: "Mohseni Gharyehsafa"
+    given-names: "Behnam"
+    url: "https://github.com/BehnamMohseniGharyehsafa"
+version: 0.4.1
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/BehnamMohseniGharyehsafa/pyEPW"
+url: "https://github.com/BehnamMohseniGharyehsafa/pyEPW"
+keywords:
+  - EPW
+  - EnergyPlus
+  - ERA5
+  - actual-year weather
+  - building simulation

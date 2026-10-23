@@ -1,0 +1,51 @@
+name: GitHub release
+
+on:
+  push:
+    tags: ["v[0-9]*"]
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - run: python -m pip install -e ".[dev,docs]"
+      - name: Match release tag to package version
+        run: python -c 'import os, pyEPW; assert os.environ["GITHUB_REF_NAME"] == "v" + pyEPW.__version__'
+      - run: python -m unittest discover -s tests -v
+      - run: ruff check pyEPW open_meteo_epw tests examples tools
+      - run: python tools/check_repository.py
+      - run: python -m build
+      - run: python -m twine check --strict dist/*
+      - name: Test installed distribution
+        run: |
+          python -m venv .verification/release-env
+          .verification/release-env/bin/python -m pip install dist/*.whl
+          .verification/release-env/bin/python -I tools/smoke_installed.py
+      - name: Attach checked artifacts to GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha256sum dist/* > dist/SHA256SUMS
+          if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" dist/* --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" dist/* --verify-tag --title "pyEPW $GITHUB_REF_NAME" --notes-file docs/release_notes.md
+          fi

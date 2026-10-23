@@ -1,0 +1,29 @@
+{
+  "scope": "Historical 2005-2024 snapshots, not a new 0.4.1 global validation.",
+  "inputs": {
+    "benchmark_v0_1_city_summary.csv": {
+      "sha256": "b7f8bc785012991ed1212047bc45ceba41cea3df2b4cb663ce3bf587edd99c21",
+      "original_local_result": "city_summary.csv",
+      "snapshot": "0.1.0"
+    },
+    "benchmark_v0_2_city_summary.csv": {
+      "sha256": "3e803dda697732c9ce1f01bf19493222400c9daeea0f4238d142ceec03cb73c8",
+      "original_local_result": "extended_city_summary.csv",
+      "snapshot": "0.2.0"
+    },
+    "benchmark_v0_2_coverage.csv": {
+      "sha256": "ce378cd352f3a9d8afd232c3312fab1d7c2413ca81c9898818a7f684b04688bf",
+      "original_local_result": "coverage_by_city.csv",
+      "snapshot": "0.2.0"
+    }
+  },
+  "energyplus_v0_2": {
+    "version": "25.1",
+    "files": 200,
+    "successful": 200,
+    "severe_errors": 0,
+    "runs_with_warnings": 37,
+    "simulated_hours": 1753200,
+    "source_sha256": "2bd20ae97a0cee17f610c7b4e36ee086dbe7aec6c15de54dae8591f907a3b423"
+  }
+}

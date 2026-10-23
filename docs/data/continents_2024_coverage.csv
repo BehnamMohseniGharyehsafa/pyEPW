@@ -1,0 +1,175 @@
+continent,city,year,field,valid_hours,missing_hours,data_kind
+Europe,Dublin,2024,dry_bulb_temperature_c,8784,0,reanalysis
+Europe,Dublin,2024,dew_point_temperature_c,8784,0,reanalysis
+Europe,Dublin,2024,relative_humidity_percent,8784,0,reanalysis
+Europe,Dublin,2024,atmospheric_station_pressure_pa,8784,0,reanalysis
+Europe,Dublin,2024,extraterrestrial_horizontal_radiation_wh_m2,8784,0,astronomical_calculation
+Europe,Dublin,2024,extraterrestrial_direct_normal_radiation_wh_m2,8784,0,astronomical_calculation
+Europe,Dublin,2024,horizontal_infrared_radiation_wh_m2,8784,0,empirical_model
+Europe,Dublin,2024,global_horizontal_radiation_wh_m2,8784,0,reanalysis
+Europe,Dublin,2024,direct_normal_radiation_wh_m2,8784,0,reanalysis
+Europe,Dublin,2024,diffuse_horizontal_radiation_wh_m2,8784,0,reanalysis
+Europe,Dublin,2024,global_horizontal_illuminance_lux,8784,0,empirical_model
+Europe,Dublin,2024,direct_normal_illuminance_lux,8784,0,empirical_model
+Europe,Dublin,2024,diffuse_horizontal_illuminance_lux,8784,0,empirical_model
+Europe,Dublin,2024,zenith_luminance_cd_m2,8622,162,empirical_model
+Europe,Dublin,2024,wind_direction_degrees,8784,0,reanalysis
+Europe,Dublin,2024,wind_speed_m_s,8784,0,reanalysis
+Europe,Dublin,2024,total_sky_cover_tenths,8784,0,reanalysis
+Europe,Dublin,2024,opaque_sky_cover_tenths,8784,0,empirical_model
+Europe,Dublin,2024,visibility_km,8782,2,nearby_station_observation
+Europe,Dublin,2024,ceiling_height_m,8779,5,nearby_station_observation
+Europe,Dublin,2024,present_weather_observation,0,8784,unavailable
+Europe,Dublin,2024,present_weather_codes,0,8784,unavailable
+Europe,Dublin,2024,precipitable_water_mm,4417,4367,reanalysis
+Europe,Dublin,2024,aerosol_optical_depth,0,8784,unavailable
+Europe,Dublin,2024,snow_depth_cm,8784,0,reanalysis
+Europe,Dublin,2024,days_since_last_snowfall,8784,0,derived_reanalysis
+Europe,Dublin,2024,albedo,4499,4285,satellite_derived
+Europe,Dublin,2024,liquid_precipitation_depth_mm,8784,0,reanalysis
+Europe,Dublin,2024,liquid_precipitation_quantity_hours,8784,0,reanalysis
+Africa,Cape Town,2024,dry_bulb_temperature_c,8784,0,reanalysis
+Africa,Cape Town,2024,dew_point_temperature_c,8784,0,reanalysis
+Africa,Cape Town,2024,relative_humidity_percent,8784,0,reanalysis
+Africa,Cape Town,2024,atmospheric_station_pressure_pa,8784,0,reanalysis
+Africa,Cape Town,2024,extraterrestrial_horizontal_radiation_wh_m2,8784,0,astronomical_calculation
+Africa,Cape Town,2024,extraterrestrial_direct_normal_radiation_wh_m2,8784,0,astronomical_calculation
+Africa,Cape Town,2024,horizontal_infrared_radiation_wh_m2,8784,0,empirical_model
+Africa,Cape Town,2024,global_horizontal_radiation_wh_m2,8784,0,reanalysis
+Africa,Cape Town,2024,direct_normal_radiation_wh_m2,8784,0,reanalysis
+Africa,Cape Town,2024,diffuse_horizontal_radiation_wh_m2,8784,0,reanalysis
+Africa,Cape Town,2024,global_horizontal_illuminance_lux,8784,0,empirical_model
+Africa,Cape Town,2024,direct_normal_illuminance_lux,8784,0,empirical_model
+Africa,Cape Town,2024,diffuse_horizontal_illuminance_lux,8784,0,empirical_model
+Africa,Cape Town,2024,zenith_luminance_cd_m2,8572,212,empirical_model
+Africa,Cape Town,2024,wind_direction_degrees,8784,0,reanalysis
+Africa,Cape Town,2024,wind_speed_m_s,8784,0,reanalysis
+Africa,Cape Town,2024,total_sky_cover_tenths,8784,0,reanalysis
+Africa,Cape Town,2024,opaque_sky_cover_tenths,8784,0,empirical_model
+Africa,Cape Town,2024,visibility_km,1,8783,nearby_station_observation
+Africa,Cape Town,2024,ceiling_height_m,1,8783,nearby_station_observation
+Africa,Cape Town,2024,present_weather_observation,0,8784,unavailable
+Africa,Cape Town,2024,present_weather_codes,0,8784,unavailable
+Africa,Cape Town,2024,precipitable_water_mm,4416,4368,reanalysis
+Africa,Cape Town,2024,aerosol_optical_depth,0,8784,unavailable
+Africa,Cape Town,2024,snow_depth_cm,8784,0,reanalysis
+Africa,Cape Town,2024,days_since_last_snowfall,8784,0,derived_reanalysis
+Africa,Cape Town,2024,albedo,4516,4268,satellite_derived
+Africa,Cape Town,2024,liquid_precipitation_depth_mm,8784,0,reanalysis
+Africa,Cape Town,2024,liquid_precipitation_quantity_hours,8784,0,reanalysis
+Asia,Tokyo,2024,dry_bulb_temperature_c,8784,0,reanalysis
+Asia,Tokyo,2024,dew_point_temperature_c,8784,0,reanalysis
+Asia,Tokyo,2024,relative_humidity_percent,8784,0,reanalysis
+Asia,Tokyo,2024,atmospheric_station_pressure_pa,8784,0,reanalysis
+Asia,Tokyo,2024,extraterrestrial_horizontal_radiation_wh_m2,8784,0,astronomical_calculation
+Asia,Tokyo,2024,extraterrestrial_direct_normal_radiation_wh_m2,8784,0,astronomical_calculation
+Asia,Tokyo,2024,horizontal_infrared_radiation_wh_m2,8784,0,empirical_model
+Asia,Tokyo,2024,global_horizontal_radiation_wh_m2,8784,0,reanalysis
+Asia,Tokyo,2024,direct_normal_radiation_wh_m2,8784,0,reanalysis
+Asia,Tokyo,2024,diffuse_horizontal_radiation_wh_m2,8784,0,reanalysis
+Asia,Tokyo,2024,global_horizontal_illuminance_lux,8784,0,empirical_model
+Asia,Tokyo,2024,direct_normal_illuminance_lux,8784,0,empirical_model
+Asia,Tokyo,2024,diffuse_horizontal_illuminance_lux,8784,0,empirical_model
+Asia,Tokyo,2024,zenith_luminance_cd_m2,8330,454,empirical_model
+Asia,Tokyo,2024,wind_direction_degrees,8784,0,reanalysis
+Asia,Tokyo,2024,wind_speed_m_s,8784,0,reanalysis
+Asia,Tokyo,2024,total_sky_cover_tenths,8784,0,reanalysis
+Asia,Tokyo,2024,opaque_sky_cover_tenths,8784,0,empirical_model
+Asia,Tokyo,2024,visibility_km,7897,887,nearby_station_observation
+Asia,Tokyo,2024,ceiling_height_m,5640,3144,nearby_station_observation
+Asia,Tokyo,2024,present_weather_observation,0,8784,unavailable
+Asia,Tokyo,2024,present_weather_codes,0,8784,unavailable
+Asia,Tokyo,2024,precipitable_water_mm,4416,4368,reanalysis
+Asia,Tokyo,2024,aerosol_optical_depth,0,8784,unavailable
+Asia,Tokyo,2024,snow_depth_cm,8784,0,reanalysis
+Asia,Tokyo,2024,days_since_last_snowfall,8784,0,derived_reanalysis
+Asia,Tokyo,2024,albedo,4558,4226,satellite_derived
+Asia,Tokyo,2024,liquid_precipitation_depth_mm,8784,0,reanalysis
+Asia,Tokyo,2024,liquid_precipitation_quantity_hours,8784,0,reanalysis
+North America,New York,2024,dry_bulb_temperature_c,8784,0,reanalysis
+North America,New York,2024,dew_point_temperature_c,8784,0,reanalysis
+North America,New York,2024,relative_humidity_percent,8784,0,reanalysis
+North America,New York,2024,atmospheric_station_pressure_pa,8784,0,reanalysis
+North America,New York,2024,extraterrestrial_horizontal_radiation_wh_m2,8784,0,astronomical_calculation
+North America,New York,2024,extraterrestrial_direct_normal_radiation_wh_m2,8784,0,astronomical_calculation
+North America,New York,2024,horizontal_infrared_radiation_wh_m2,8784,0,empirical_model
+North America,New York,2024,global_horizontal_radiation_wh_m2,8784,0,reanalysis
+North America,New York,2024,direct_normal_radiation_wh_m2,8784,0,reanalysis
+North America,New York,2024,diffuse_horizontal_radiation_wh_m2,8784,0,reanalysis
+North America,New York,2024,global_horizontal_illuminance_lux,8784,0,empirical_model
+North America,New York,2024,direct_normal_illuminance_lux,8784,0,empirical_model
+North America,New York,2024,diffuse_horizontal_illuminance_lux,8784,0,empirical_model
+North America,New York,2024,zenith_luminance_cd_m2,8510,274,empirical_model
+North America,New York,2024,wind_direction_degrees,8784,0,reanalysis
+North America,New York,2024,wind_speed_m_s,8784,0,reanalysis
+North America,New York,2024,total_sky_cover_tenths,8784,0,reanalysis
+North America,New York,2024,opaque_sky_cover_tenths,8784,0,empirical_model
+North America,New York,2024,visibility_km,8784,0,nearby_station_observation
+North America,New York,2024,ceiling_height_m,8784,0,nearby_station_observation
+North America,New York,2024,present_weather_observation,0,8784,unavailable
+North America,New York,2024,present_weather_codes,0,8784,unavailable
+North America,New York,2024,precipitable_water_mm,4422,4362,reanalysis
+North America,New York,2024,aerosol_optical_depth,0,8784,unavailable
+North America,New York,2024,snow_depth_cm,8784,0,reanalysis
+North America,New York,2024,days_since_last_snowfall,8784,0,derived_reanalysis
+North America,New York,2024,albedo,4567,4217,satellite_derived
+North America,New York,2024,liquid_precipitation_depth_mm,8784,0,reanalysis
+North America,New York,2024,liquid_precipitation_quantity_hours,8784,0,reanalysis
+South America,Santiago,2024,dry_bulb_temperature_c,8784,0,reanalysis
+South America,Santiago,2024,dew_point_temperature_c,8784,0,reanalysis
+South America,Santiago,2024,relative_humidity_percent,8784,0,reanalysis
+South America,Santiago,2024,atmospheric_station_pressure_pa,8784,0,reanalysis
+South America,Santiago,2024,extraterrestrial_horizontal_radiation_wh_m2,8784,0,astronomical_calculation
+South America,Santiago,2024,extraterrestrial_direct_normal_radiation_wh_m2,8784,0,astronomical_calculation
+South America,Santiago,2024,horizontal_infrared_radiation_wh_m2,8784,0,empirical_model
+South America,Santiago,2024,global_horizontal_radiation_wh_m2,8784,0,reanalysis
+South America,Santiago,2024,direct_normal_radiation_wh_m2,8784,0,reanalysis
+South America,Santiago,2024,diffuse_horizontal_radiation_wh_m2,8784,0,reanalysis
+South America,Santiago,2024,global_horizontal_illuminance_lux,8784,0,empirical_model
+South America,Santiago,2024,direct_normal_illuminance_lux,8784,0,empirical_model
+South America,Santiago,2024,diffuse_horizontal_illuminance_lux,8784,0,empirical_model
+South America,Santiago,2024,zenith_luminance_cd_m2,8639,145,empirical_model
+South America,Santiago,2024,wind_direction_degrees,8784,0,reanalysis
+South America,Santiago,2024,wind_speed_m_s,8784,0,reanalysis
+South America,Santiago,2024,total_sky_cover_tenths,8784,0,reanalysis
+South America,Santiago,2024,opaque_sky_cover_tenths,8784,0,empirical_model
+South America,Santiago,2024,visibility_km,8584,200,nearby_station_observation
+South America,Santiago,2024,ceiling_height_m,4217,4567,nearby_station_observation
+South America,Santiago,2024,present_weather_observation,0,8784,unavailable
+South America,Santiago,2024,present_weather_codes,0,8784,unavailable
+South America,Santiago,2024,precipitable_water_mm,4421,4363,reanalysis
+South America,Santiago,2024,aerosol_optical_depth,0,8784,unavailable
+South America,Santiago,2024,snow_depth_cm,8784,0,reanalysis
+South America,Santiago,2024,days_since_last_snowfall,8784,0,derived_reanalysis
+South America,Santiago,2024,albedo,4528,4256,satellite_derived
+South America,Santiago,2024,liquid_precipitation_depth_mm,8784,0,reanalysis
+South America,Santiago,2024,liquid_precipitation_quantity_hours,8784,0,reanalysis
+Oceania,Sydney,2024,dry_bulb_temperature_c,8784,0,reanalysis
+Oceania,Sydney,2024,dew_point_temperature_c,8784,0,reanalysis
+Oceania,Sydney,2024,relative_humidity_percent,8784,0,reanalysis
+Oceania,Sydney,2024,atmospheric_station_pressure_pa,8784,0,reanalysis
+Oceania,Sydney,2024,extraterrestrial_horizontal_radiation_wh_m2,8784,0,astronomical_calculation
+Oceania,Sydney,2024,extraterrestrial_direct_normal_radiation_wh_m2,8784,0,astronomical_calculation
+Oceania,Sydney,2024,horizontal_infrared_radiation_wh_m2,8784,0,empirical_model
+Oceania,Sydney,2024,global_horizontal_radiation_wh_m2,8784,0,reanalysis
+Oceania,Sydney,2024,direct_normal_radiation_wh_m2,8784,0,reanalysis
+Oceania,Sydney,2024,diffuse_horizontal_radiation_wh_m2,8784,0,reanalysis
+Oceania,Sydney,2024,global_horizontal_illuminance_lux,8784,0,empirical_model
+Oceania,Sydney,2024,direct_normal_illuminance_lux,8784,0,empirical_model
+Oceania,Sydney,2024,diffuse_horizontal_illuminance_lux,8784,0,empirical_model
+Oceania,Sydney,2024,zenith_luminance_cd_m2,8331,453,empirical_model
+Oceania,Sydney,2024,wind_direction_degrees,8784,0,reanalysis
+Oceania,Sydney,2024,wind_speed_m_s,8784,0,reanalysis
+Oceania,Sydney,2024,total_sky_cover_tenths,8784,0,reanalysis
+Oceania,Sydney,2024,opaque_sky_cover_tenths,8784,0,empirical_model
+Oceania,Sydney,2024,visibility_km,237,8547,nearby_station_observation
+Oceania,Sydney,2024,ceiling_height_m,341,8443,nearby_station_observation
+Oceania,Sydney,2024,present_weather_observation,0,8784,unavailable
+Oceania,Sydney,2024,present_weather_codes,0,8784,unavailable
+Oceania,Sydney,2024,precipitable_water_mm,4416,4368,reanalysis
+Oceania,Sydney,2024,aerosol_optical_depth,0,8784,unavailable
+Oceania,Sydney,2024,snow_depth_cm,8784,0,reanalysis
+Oceania,Sydney,2024,days_since_last_snowfall,8784,0,derived_reanalysis
+Oceania,Sydney,2024,albedo,4468,4316,satellite_derived
+Oceania,Sydney,2024,liquid_precipitation_depth_mm,8784,0,reanalysis
+Oceania,Sydney,2024,liquid_precipitation_quantity_hours,8784,0,reanalysis

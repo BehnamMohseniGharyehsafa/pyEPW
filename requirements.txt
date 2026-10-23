@@ -1,0 +1,2 @@
+# Compatibility dependency list; prefer: python -m pip install .
+tzdata>=2024.1

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Data sources and service terms
+    url: https://github.com/BehnamMohseniGharyehsafa/pyEPW/blob/main/DATA_SOURCES.md
+    about: Check attribution, non-commercial hosted access and missing-data interpretation.

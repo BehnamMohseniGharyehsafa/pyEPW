@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible conversion, source or installation problem
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: pyEPW version and Python version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction and expected result
+      description: Include the command, city/country, year and format. Omit private addresses and credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Actual result and relevant metadata
+      description: Include missing_fields or a short redacted traceback; do not paste a full raw archive.
+    validations:
+      required: true
+  - type: checkboxes
+    id: sources
+    attributes:
+      label: Data interpretation
+      options:
+        - label: I checked the documented EPW missing codes and source coverage.

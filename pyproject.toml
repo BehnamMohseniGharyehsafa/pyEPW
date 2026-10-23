@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyepw-openmeteo"
+dynamic = ["version"]
+description = "Actual-year EPW, TXT, and CSV weather files from a city name and year"
+authors = [{name = "Behnam Mohseni Gharyehsafa"}]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
+keywords = ["weather", "epw", "energyplus", "open-meteo", "era5", "building-simulation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Typing :: Typed",
+]
+dependencies = ["tzdata>=2024.1"]
+
+[project.optional-dependencies]
+dev = ["build>=1.2", "pytest>=8", "ruff>=0.9", "twine>=6"]
+docs = ["matplotlib>=3.8", "PyYAML>=6"]
+
+[project.urls]
+Homepage = "https://github.com/BehnamMohseniGharyehsafa/pyEPW"
+Documentation = "https://github.com/BehnamMohseniGharyehsafa/pyEPW/tree/main/docs"
+Issues = "https://github.com/BehnamMohseniGharyehsafa/pyEPW/issues"
+Changelog = "https://github.com/BehnamMohseniGharyehsafa/pyEPW/blob/main/CHANGELOG.md"
+
+[project.scripts]
+pyEPW = "pyEPW.cli:main"
+open-meteo-epw = "pyEPW.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyEPW*", "open_meteo_epw*"]
+exclude = ["tests*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pyEPW._version.__version__"}
+
+[tool.setuptools.package-data]
+pyEPW = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
