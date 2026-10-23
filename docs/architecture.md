@@ -127,13 +127,13 @@ sequenceDiagram
     API->>Engine: Assemble fixed-standard-time hourly records
     Engine-->>API: Dataset, coverage, warnings and lineage
     alt Required weather is absent
-        API-->>User: DataError; no output written
+        API-->>User: DataError, no output written
     else Requirements pass
         API->>Writer: Write selected format + metadata
         Writer-->>User: Output path
         User->>API: to_csv() / to_txt()
         API->>Writer: Export the already loaded dataset
-        Writer-->>User: Additional path; no new weather request
+        Writer-->>User: Additional path, no new weather request
     end
 ```
 
